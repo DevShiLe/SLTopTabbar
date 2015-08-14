@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0ACC007E1B7D0B81001F4902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC007D1B7D0B81001F4902 /* main.m */; };
-		0ACC00811B7D0B81001F4902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00801B7D0B81001F4902 /* AppDelegate.m */; };
-		0ACC00841B7D0B81001F4902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00831B7D0B81001F4902 /* ViewController.m */; };
-		0ACC00871B7D0B81001F4902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC00851B7D0B81001F4902 /* Main.storyboard */; };
 		0ACC00891B7D0B81001F4902 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC00881B7D0B81001F4902 /* Images.xcassets */; };
-		0ACC008C1B7D0B81001F4902 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC008A1B7D0B81001F4902 /* LaunchScreen.xib */; };
 		0ACC00981B7D0B81001F4902 /* SLTopTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00971B7D0B81001F4902 /* SLTopTabbarTests.m */; };
+		0ACC00A31B7D0BC2001F4902 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00A21B7D0BC2001F4902 /* SLAppDelegate.m */; };
+		0ACC00A61B7D7C9A001F4902 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00A51B7D7C9A001F4902 /* SLViewController.m */; };
+		0ACC00A91B7D7CAF001F4902 /* SLTopTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00A81B7D7CAF001F4902 /* SLTopTabbarController.m */; };
+		0ACC00AC1B7D935E001F4902 /* SLTopTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC00AB1B7D935E001F4902 /* SLTopTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +30,18 @@
 		0ACC00781B7D0B81001F4902 /* SLTopTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTopTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACC007C1B7D0B81001F4902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ACC007D1B7D0B81001F4902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0ACC007F1B7D0B81001F4902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0ACC00801B7D0B81001F4902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0ACC00821B7D0B81001F4902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ACC00831B7D0B81001F4902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0ACC00861B7D0B81001F4902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ACC00881B7D0B81001F4902 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0ACC008B1B7D0B81001F4902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0ACC00911B7D0B81001F4902 /* SLTopTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTopTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACC00961B7D0B81001F4902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ACC00971B7D0B81001F4902 /* SLTopTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTopTabbarTests.m; sourceTree = "<group>"; };
+		0ACC00A11B7D0BC2001F4902 /* SLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		0ACC00A21B7D0BC2001F4902 /* SLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		0ACC00A41B7D7C9A001F4902 /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		0ACC00A51B7D7C9A001F4902 /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		0ACC00A71B7D7CAF001F4902 /* SLTopTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTopTabbarController.h; sourceTree = "<group>"; };
+		0ACC00A81B7D7CAF001F4902 /* SLTopTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTopTabbarController.m; sourceTree = "<group>"; };
+		0ACC00AA1B7D935E001F4902 /* SLTopTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTopTabbar.h; sourceTree = "<group>"; };
+		0ACC00AB1B7D935E001F4902 /* SLTopTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTopTabbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +83,15 @@
 		0ACC007A1B7D0B81001F4902 /* SLTopTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				0ACC007F1B7D0B81001F4902 /* AppDelegate.h */,
-				0ACC00801B7D0B81001F4902 /* AppDelegate.m */,
-				0ACC00821B7D0B81001F4902 /* ViewController.h */,
-				0ACC00831B7D0B81001F4902 /* ViewController.m */,
-				0ACC00851B7D0B81001F4902 /* Main.storyboard */,
+				0ACC00A11B7D0BC2001F4902 /* SLAppDelegate.h */,
+				0ACC00A21B7D0BC2001F4902 /* SLAppDelegate.m */,
+				0ACC00A41B7D7C9A001F4902 /* SLViewController.h */,
+				0ACC00A51B7D7C9A001F4902 /* SLViewController.m */,
+				0ACC00A71B7D7CAF001F4902 /* SLTopTabbarController.h */,
+				0ACC00A81B7D7CAF001F4902 /* SLTopTabbarController.m */,
+				0ACC00AA1B7D935E001F4902 /* SLTopTabbar.h */,
+				0ACC00AB1B7D935E001F4902 /* SLTopTabbar.m */,
 				0ACC00881B7D0B81001F4902 /* Images.xcassets */,
-				0ACC008A1B7D0B81001F4902 /* LaunchScreen.xib */,
 				0ACC007B1B7D0B81001F4902 /* Supporting Files */,
 			);
 			path = SLTopTabbar;
@@ -163,6 +167,7 @@
 		0ACC00701B7D0B81001F4902 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "石乐";
 				TargetAttributes = {
@@ -199,8 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACC00871B7D0B81001F4902 /* Main.storyboard in Resources */,
-				0ACC008C1B7D0B81001F4902 /* LaunchScreen.xib in Resources */,
 				0ACC00891B7D0B81001F4902 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACC00841B7D0B81001F4902 /* ViewController.m in Sources */,
-				0ACC00811B7D0B81001F4902 /* AppDelegate.m in Sources */,
+				0ACC00A91B7D7CAF001F4902 /* SLTopTabbarController.m in Sources */,
 				0ACC007E1B7D0B81001F4902 /* main.m in Sources */,
+				0ACC00A61B7D7C9A001F4902 /* SLViewController.m in Sources */,
+				0ACC00A31B7D0BC2001F4902 /* SLAppDelegate.m in Sources */,
+				0ACC00AC1B7D935E001F4902 /* SLTopTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +247,6 @@
 			targetProxy = 0ACC00921B7D0B81001F4902 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0ACC00851B7D0B81001F4902 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0ACC00861B7D0B81001F4902 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0ACC008A1B7D0B81001F4902 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0ACC008B1B7D0B81001F4902 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0ACC00991B7D0B81001F4902 /* Debug */ = {
@@ -347,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLTopTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLTopTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

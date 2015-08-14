@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLAppDelegate.h
 //  SLTopTabbar
 //
 //  Created by Kevin on 15/8/14.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SLAppDelegate : UIResponder<UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
-

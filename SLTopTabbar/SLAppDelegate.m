@@ -1,22 +1,30 @@
 //
-//  AppDelegate.m
+//  SLAppDelegate.m
 //  SLTopTabbar
 //
 //  Created by Kevin on 15/8/14.
 //  Copyright (c) 2015年 石乐. All rights reserved.
 //
 
-#import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "SLAppDelegate.h"
+#import "SLViewController.h"
+@interface SLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    //创建初始化主界面
+    self.window=[[UIWindow alloc]init];
+    //设置主界面的大小
+    self.window.frame=[UIScreen mainScreen].bounds;
+    //设置主界面的标题栏和主界面的控制器
+    self.window.rootViewController=[[UINavigationController alloc]initWithRootViewController:[[SLViewController alloc]init]];
+    //设置主界面显示
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -41,5 +49,4 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 @end
